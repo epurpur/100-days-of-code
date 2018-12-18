@@ -1,0 +1,14 @@
+[2018-12-10 16:32:51.091681] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: logfileFF.log
+[2018-12-10 16:33:29.401353] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: logfileFF.log
+[2018-12-10 19:22:52.821777] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: logfileFF.log
+[2018-12-10 19:23:09.372931] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: logfileFF.log
+[2018-12-10 19:25:11.438787] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: logfileFF.log
+[2018-12-10 19:26:53.463086] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: logfileFF.log
+[2018-12-10 19:27:54.004260] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: logfileFF.log
+[2018-12-10 19:27:54.053968] TRACE: Startup: Search finished for city id: 3120968
+[2018-12-10 19:28:34.897176] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: logfileFF.log
+[2018-12-10 19:28:34.945879] TRACE: Wrapper Level: Search finished for city id: 3120968
+[2018-12-10 19:30:43.547921] NOTICE: Startup level: Logging Initialized. level: 9, mode: file mode: logfileFF.log
+[2018-12-10 19:30:43.548196] TRACE: Startup level: Starting request for city id: 3120968
+[2018-12-10 19:30:43.598298] TRACE: Wrapper Level: Search finished for city id: 3120968
+[2018-12-10 19:33:25.788471] NOTICE: Startup level: Logging Initialized. level: 9, mode: file mode: logfileFF.log

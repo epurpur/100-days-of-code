@@ -1,0 +1,9 @@
+[2018-12-06 19:49:36.444438] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: OpenWeatherApp.log
+[2018-12-06 19:49:36.444915] TRACE: API Level: Starting search for city_id: 3120968
+[2018-12-06 19:49:36.538901] TRACE: API Level: Request finished, status code 200
+[2018-12-06 19:49:36.539626] TRACE: API Level: Search successful for city_id: 3120968
+[2018-12-06 19:49:36.540095] TRACE: API Level: Finished search for city_id: 3120968. Results in 95 milliseconds
+[2018-12-06 19:50:23.815276] NOTICE: Startup: Logging Initialized. level: 9, mode: file mode: OpenWeatherApp.log
+[2018-12-06 19:50:23.815520] TRACE: API Level: Starting search for city_id: 31209681
+[2018-12-06 19:50:23.892164] TRACE: API Level: Request finished, status code 404
+[2018-12-06 19:50:23.893245] WARNING: API Level: Error! Something is wrong with the api request. Maybe a city_id is wrong or your API key is bad

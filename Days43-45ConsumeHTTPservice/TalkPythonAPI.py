@@ -25,7 +25,8 @@ def find_movie_by_title(keyword):
     movies = []
     for r in results.get('hits'):
         movies.append(Movie(**r))
-        
+    
+    
     return movies
 
 

@@ -9,7 +9,7 @@ Created on Tue Dec 18 10:07:11 2018
 import requests
 import collections
 
-Episode = collections.namedtuple('Episode', 'id, url, title, description, category')    #id, url, etc are keys returned in results dictionary
+Episode = collections.namedtuple('Episode', 'category, id, url, title, description')    #id, url, etc are keys returned in results dictionary
 
 def find_podcast_with_keyword(keyword):
     
@@ -19,15 +19,14 @@ def find_podcast_with_keyword(keyword):
     response.raise_for_status()
     results = response.json()   #converts response into python dictionaries called results
     
-#    return results.get('results')   #'results' is the key in the dictionary that has the info about the podcast episodes
+
     episodes = []
-    
-    for r in results.get('results'):
+    for r in results.get('results'):        #r is a dictionary for each podcast episode
         episodes.append(Episode(**r))       #**r preserves dictionary information for each element in dictionary. much like **args in decorators
+
+        
+    return episodes
     
-#find_podcast_with_keyword('mongodb')
-    
 
 
 
-######Fix namedtuples
